@@ -5,6 +5,7 @@ docs_dir: docs/
 theme: 
   name: bootstrap386 
 nav:
+  home: index.md
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
   - Microservices FAQ & Kubernetes Native: faq.md
