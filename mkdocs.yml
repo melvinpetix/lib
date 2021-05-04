@@ -1,9 +1,9 @@
 site_name: lib
 site_description: IT projects and resources.. along the way..
-site_author: melvinpetix
+site_author: mbiscarra
 docs_dir: docs/
 theme: 
-  name: bootstrap386 
+  name: ivory
 nav:
   home: index.md
   - Openshift VS Kubernetes: introduction.md
