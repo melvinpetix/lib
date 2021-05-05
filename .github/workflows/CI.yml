@@ -25,6 +25,7 @@ jobs:
       - name: Deploy docs
 
       - name: install theme
+        uses: pip install mkdocs-ivory
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
 
         # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
