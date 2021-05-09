@@ -14,15 +14,9 @@ jobs:
       - name: Checkout Master
         uses: actions/checkout@v2
 
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
       - name: deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
+          CONFIG_FILE: /mkdocs.yml
           EXTRA_PACKAGES: build-base
   
