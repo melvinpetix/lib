@@ -19,5 +19,5 @@ jobs:
         python -m pip install mkdocs-ivory
     - name: Deploy Files
       run: |
-        git remote add gh-token "https://github.com/melvinpetix/lib.git
+        git remote add gh-token "https://github.com/melvinpetix/lib.git"
         python -m mkdocs gh-deploy
