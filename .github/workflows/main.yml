@@ -19,12 +19,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install mkdocs
-          pip install mkdocs-ivory
+      - name: deploy docs
+        run: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
 
-      - name: Deploy
-        run: |
-          mkdocs gh-deploy
