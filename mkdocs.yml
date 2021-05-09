@@ -2,7 +2,7 @@ site_name: lib
 site_description: IT projects and resources.. along the way..
 site_author: mbiscarra
 docs_dir: docs/
-theme  
+theme:
   name: ivory
 nav 
  index.md
