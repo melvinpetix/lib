@@ -6,14 +6,18 @@ on:
 
 jobs:
   build:
-    name: Deploy docs
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v2
-
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools
+        python -m pip install mkdocs-ivory
+    - name: Deploy Files
+      run: |
+        git remote add gh-token "https://github.com/melvinpetix/lib.git
+        python -m mkdocs gh-deploy
