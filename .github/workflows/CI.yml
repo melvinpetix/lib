@@ -16,6 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip setuptools
+        python -m pip install mkdocs
         python -m pip install mkdocs-ivory
     - name: Deploy Files
       run: |
