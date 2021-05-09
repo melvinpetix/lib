@@ -20,5 +20,5 @@ jobs:
           python-version: '3.x'
 
       - name: deploy docs
-        run: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
 
