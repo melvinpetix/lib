@@ -4,6 +4,8 @@ site_author: mbiscarra
 docs_dir: docs/
 theme:
   name: ivory
+docs:
+  index.md
 nav:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
