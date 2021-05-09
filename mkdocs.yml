@@ -111,13 +111,3 @@ nav
  Subreddits  newsfeeds.md
  Other Awesome Lists  other-awesome-lists.md
  About  about.md
-markdown_extensions 
- smarty
- sane_lists
- fenced_code
- meta
- admonition
- attr_list
- toc 
-      permalink  true
-      baselevel  2
