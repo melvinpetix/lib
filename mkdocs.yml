@@ -9,8 +9,8 @@ nav:
  Openshift VS Kubernetes introduction.md
  From Java EE To Cloud Native javaee-to-cloud-native.md
  Microservices FAQ & Kubernetes Native faq.md
- Site Reliability Engineering (SRE) sre.md
- Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+ sre.md
+ serverless.md
  DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
@@ -19,8 +19,8 @@ nav:
  NoOps: 
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
- FinOpsCloud Financial Management: finops.md
- TestOps and Continuous Testing: testops.md
+ finops.md
+ testops.md
  Project Management Methodology:
     - Project Management Methodology: project-management-methodology.md
     - Work From Home: workfromhome.md
@@ -39,7 +39,7 @@ nav:
     - OpenShift Pipelines with Jenkins, Tekton and more...: openshift-pipelines.md
     - Performance testing with Jenkins and JMeter or Gatling : performance-testing-with-jenkins-and-jmeter.md
     - Jenkins Alternatives for Continuous Integration: jenkins-alternatives.md
-Toolchain:
+ Toolchain:
     - Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo: container-managers.md
     - Maven & Gradle: maven-gradle.md
     - SonarQube: sonarqube.md
