@@ -16,8 +16,4 @@ jobs:
 
       - name: deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        env:
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          CUSTOM_DOMAIN: petixnginx.tk/lib
   
