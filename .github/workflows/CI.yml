@@ -8,15 +8,9 @@ jobs:
   build:
     runs-on: [ubuntu-latest]
     steps:
+    
+    - name: checkout master
     - uses: actions/checkout@v2
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.7
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip setuptools
-        python -m pip install mkdocs
-        python -m pip install mkdocs-ivory
+
     - name: Deploy docs
       uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
