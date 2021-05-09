@@ -21,4 +21,5 @@ jobs:
     - name: Deploy Files
       run: |
         git remote add gh-token "https://github.com/melvinpetix/lib.git"
+        python -m mkdocs gh-deploy --clean
         python -m mkdocs gh-deploy
