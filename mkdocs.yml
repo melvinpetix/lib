@@ -4,8 +4,8 @@ site_author: mbiscarra
 docs_dir: docs/
 theme:
   name: ivory
-#docs:
-#  index.md
+docs:
+  index.md
 nav:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
@@ -20,15 +20,12 @@ nav:
   - NoOps: 
       - NoOps: noops.md
       - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
-  - FinOps: 
-      - Cloud Financial Management: finops.md
-  - TestOps:
-      - TestOps and Continuous Testing: testops.md
+  - FinOps - Cloud Financial Management: finops.md
+  - TestOps and Continuous Testing: testops.md
   - Project Management Methodology:
       - Project Management Methodology: project-management-methodology.md
       - Work From Home: workfromhome.md
       - Appointment Scheduling: appointment-scheduling.md
-  - Docker:    
   - Docker: docker.md
   - Kubernetes: 
     - Kubernetes: kubernetes.md
