@@ -1,11 +1,8 @@
-site_name: lib
-site_description: IT projects and resources.. along the way..
-site_author: mbiscarra
+site_name: 'Noted'
+site_description: Marked-it-down!!
+site_author: mbiscar1
 docs_dir: docs/
-theme:
-  name: ivory
-docs:
-  index.md
+theme: windmill-dark
 nav:
   - Openshift VS Kubernetes: introduction.md
   - From Java EE To Cloud Native: javaee-to-cloud-native.md
