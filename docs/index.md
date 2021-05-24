@@ -70,7 +70,8 @@
 [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
-[Monitoring and Performance. Prometheus, Grafana, Splunk, APMs and more](monitoring.md)(splunk.md)
+[Monitoring and Performance. Prometheus, Grafana, Splunk, APMs and more](monitoring.md)
+#Splunk.md
 ## Configuration Management
 [Ansible](ansible.md)
 [Chef](chef.md)
