@@ -1,5 +1,4 @@
-2017 ~ 🌟
-
+ 🌟2017🌟
 
 ### From Java EE To Cloud Native. Openshift VS Kubernetes
 [From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
@@ -11,7 +10,7 @@
 [Cheat Sheets](cheatsheets.md)
 [GitOps](gitops.md)
 [MLOps](mlops.md)
-[Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
+[Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more](demos.md)
 ## NoOps
 [NoOps](noops.md)
 [Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
@@ -73,7 +72,7 @@
 [Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
 [Caching Solutions](caching.md)
 ## Monitoring and Performance. Prometheus, Grafana, APMs and more
-[Monitoring and Performance. Prometheus, Grafana, Splunk, APMs and more](monitoring.md)(Splunk.md)
+[Monitoring and Performance. Prometheus, Grafana, Splunk, APMs and more](monitoring.md)(splunk.md)
 ## Configuration Management
 [Ansible](ansible.md)
 [Chef](chef.md)
