@@ -1,5 +1,4 @@
-___________________________________________🌟~2017
-
+2017 ~ 🌟
 
 
 ### From Java EE To Cloud Native. Openshift VS Kubernetes
