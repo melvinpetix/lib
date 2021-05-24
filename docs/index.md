@@ -1,5 +1,3 @@
- 🌟2017🌟
-
 ### From Java EE To Cloud Native. Openshift VS Kubernetes
 [From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
 [Microservices FAQ & Kubernetes Native](faq.md)
