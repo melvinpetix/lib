@@ -1,5 +1,5 @@
 site_name: 'Noted'
-site_description: Marked-it-down yo!!
+site_description: learned so far!!
 site_author: mbiscar1
 docs_dir: docs/
-theme: windmill-dark
+theme: cyborg
