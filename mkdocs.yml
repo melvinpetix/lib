@@ -1,9 +1,5 @@
 site_name: S.O.S
-site_url: https://github.com/melvinpetix/lib
-site_description: .. learned so far
 site_author: Melvin Biscarra
-
-repo_url: https://github.com/melvinpetix/lib
 
 theme:
     name: cyborg
