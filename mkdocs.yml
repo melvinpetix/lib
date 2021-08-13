@@ -2,7 +2,7 @@ site_name: S.O.S
 site_author: Melvin Biscarra
 
 theme:
-    name: cyborg
+    name: windmill-dark
 
 markdown_extensions:
 
