@@ -8,37 +8,6 @@ extra_css:
   - static/extra.css
 extra_javascript:
   - javascript/extra.js
-markdown_extensions:
-  - smarty
-  - sane_lists
-  - fenced_code
-  - meta
-  - admonition
-  - attr_list
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  #- pymdownx.emoji:
-  #    emoji_index: !!python/name:pymdownx.emoji.twemoji
-  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  #- pymdownx.emoji:
-  #    emoji_index: !!python/name:materialx.emoji.twemoji
-  #    emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed
-  - pymdownx.tilde
-  - codehilite
-  - footnotes
-  - toc:
       permalink: true
       #baselevel: 2
 nav:
