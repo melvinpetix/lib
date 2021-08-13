@@ -10,13 +10,8 @@ theme:
   history_buttons: true
   article_nav_top: true
   article_nav_bottom: true
-nav:
+docs:
   - Home: index.md
-  - Introduction:
-    - From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
-    - Microservices FAQ & Kubernetes Native: faq.md
-  - Site Reliability Engineering (SRE): sre.md
-  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
   - DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
