@@ -18,7 +18,7 @@ jobs:
           architecture: 'x64'
       - name: Install dependencies
         run: |
-          python3 -m pip uninstall mkdocs-bootswatch
+          python3 -m pip install mkdocs-bootswatch
           python3 -m pip uninstall mkdocs-bootstrap386
           python3 -m pip uninstall mkdocs-ivory
           python3 -m pip install mkdocs
