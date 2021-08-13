@@ -8,8 +8,6 @@ extra_css:
   - static/extra.css
 extra_javascript:
   - javascript/extra.js
-      permalink: true
-      #baselevel: 2
 nav:
   - Home: index.md
   - Introduction:
