@@ -1,5 +1,7 @@
 site_name: petix wiki-ed 
+site_url: petixnginx.tk/lib
 site_author: melvinpetix
+repo_url: https://github.com/melvinpetix/lib
 docs_dir: docs/
 theme: 
   name: windmill-dark
@@ -12,6 +14,11 @@ theme:
   article_nav_bottom: true
 docs:
   - Home: index.md
+  - Introduction:
+    - From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
+    - Microservices FAQ & Kubernetes Native: faq.md
+  - Site Reliability Engineering (SRE): sre.md
+  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
   - DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
