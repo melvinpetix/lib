@@ -1,40 +1,134 @@
-# Introduction. Openshift VS Kubernetes
-- [Introduction](#introduction)
-- [Openshift VS Kubernetes](#openshift-vs-kubernetes)
-
-## Introduction
-* [developers.redhat.com: Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
-* [Dzone.com: Kubernetes in 10 minutes: A Complete Guide](https://dzone.com/articles/kubernetes-in-10-minutes-a-complete-guide-to-look)
-* [redhat.com: Why choose Red Hat for microservices?](https://www.redhat.com/en/topics/microservices/why-choose-red-hat-microservices)
-* [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
-* [weave.works: Going Cloud Native: 6 essential things you need to know](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know/)
-* [Operators and Sidecars Are the New Model for Software Delivery](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery/)
-
-<center>
-[![microservices infographic](images/microservices-infographic.png)](https://www.weave.works/technologies/going-cloud-native-6-essential-things-you-need-to-know)
-</center>
-
-<center>
-[![sw consumers](images/softwareconsumers-1.png)](https://thenewstack.io/operators-and-sidecars-are-the-new-model-for-software-delivery)
-</center>
-
-## Openshift VS Kubernetes
-* [cloudowski.com: 10 most important differences between OpenShift and Kubernetes 🌟](https://cloudowski.com/articles/10-differences-between-openshift-and-kubernetes/)
-* [Dzone.com: 4 Cluster Management Tools to Compare](https://dzone.com/articles/4-cluster-management-tools-to-compare)
-* [Dzone.com: A Comparison of Kubernetes Distributions](https://dzone.com/articles/kubernetes-distributions-how-do-i-choose-one)
-* [thestack.com: OpenShift in a world of KaaS 🌟](https://techerati.com/the-stack-archive/cloud/2018/10/18/openshift-in-a-world-of-kaas/)
-* [medium.com: The Differences Between Kubernetes and Openshift](https://medium.com/levvel-consulting/the-differences-between-kubernetes-and-openshift-ae778059a90e)
-* [blog.netsil.com: Kubernetes vs Openshift vs Tectonic: Comparing Enterprise Options](https://blog.netsil.com/kubernetes-vs-openshift-vs-tectonic-comparing-enterprise-options-e3a34dc60519)
-* [kubedex.com: Kubernetes On-Prem, OpenShift vs PKS vs Rancher](https://kubedex.com/redhat-openshift-vs-pivotal-pks-vs-rancher/)
-    * [reddit.com: OpenShift vs PKS vs Rancher 🌟](https://www.reddit.com/r/kubernetes/comments/9qxeuw/openshift_vs_pks_vs_rancher/)
-* [elastisys.com: OpenShift Features and Their Kubernetes Counterparts 🌟](https://elastisys.com/2018/11/06/openshift-features-kubernetes-counterparts/)
-* [medium.com: Kubernetes — What Is It, What Problems Does It Solve and How Does It Compare With Alternatives?](https://medium.com/@srikanth.k/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f)
-* [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog/kubernetes-vs-openshift)
-* [developer.ibm.com: Example exercises to differentiate OpenShift and Kubernetes](https://developer.ibm.com/tutorials/examples-differentiate-openshift-kubernetes/)
-
-[![Openshift SaaS VS Kubernetes SaaS](images/openshift-vs-kubernetes-saas.png)](https://proteon.com/2018/10/18/openshift-in-a-world-of-kubernetes-as-a-service/)
-
-[![Openshift VS Kubernetes](images/openshift_vs_kubernetes.jpeg)](https://www.linkedin.com/feed/update/urn:li:activity:6459657167300583424)
+2018
 
 
 
+### From Java EE To Cloud Native. Openshift VS Kubernetes
+[From Java EE To Cloud Native. Openshift VS Kubernetes](introduction.md)
+[Microservices FAQ & Kubernetes Native](faq.md)
+## Site Reliability Engineering (SRE)
+[Site Reliability Engineering (SRE)](sre.md)
+## DevOps
+[DevOps](devops.md)
+[Cheat Sheets 🌟](cheatsheets.md)
+[GitOps 🌟](gitops.md)
+[MLOps](mlops.md)
+[Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟](demos.md)
+## NoOps
+[NoOps](noops.md)
+[Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless](serverless.md)
+## FinOps - Cloud Financial Management
+[FinOps - Cloud Financial Management](finops.md)
+## TestOps and Continuous Testing
+[TestOps and Continuous Testing](testops.md)
+## Project Management Methodology
+[Project Management Methodology](project-management-methodology.md)
+[Project Management Tools](project-management-tools.md)
+[Appointment Scheduling](appointment-scheduling.md)
+[Work From Home](workfromhome.md)
+## Docker
+[Docker](docker.md)
+## Kubernetes
+[Kubernetes 🌟](kubernetes.md)
+[Rancher - Enterprise management for Kubernetes 🌟](rancher.md)
+[Kubernetes Matrix Table 🌟](matrix-table.md)
+[Kubernetes Alternatives](kubernetes-alternatives.md)
+## OpenShift
+[OpenShift 🌟](openshift.md)
+[OCP 3](ocp3.md)
+[OCP 4 🌟](ocp4.md)
+### OpenShift Streaming & Training
+[OpenShift.tv](https://openshift.tv) 
+[twitch.tv/redhatopenshift](https://www.twitch.tv/redhatopenshift)
+[Udemy: OpenShift 4 desde cero 🌟](https://www.udemy.com/course/openshift-4-desde-cero)
+### OpenShift on Public Cloud
+[OpenShift Dedicated](https://www.openshift.com/products/dedicated/)
+[Amazon Red Hat OpenShift](https://www.openshift.com/products/amazon-openshift/faq)
+[OpenShift on Google Cloud](https://cloud.google.com/solutions/partners/openshift-on-gcp)
+[Microsoft Azure Red Hat OpenShift](https://www.openshift.com/products/azure-openshift)
+[Red Hat OpenShift on IBM Cloud](https://www.ibm.com/cloud/openshift)
+[OpenShift Online](https://www.openshift.com/products/online/)
+[OpenShift.io](https://openshift.io/)
+### Customer Success Stories
+[Customer Success Stories 🌟](customer.md)
+## Software Delivery Pipeline
+[CI/CD - Continuous Integration & Continuous Delivery](cicd.md)
+[Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟](git.md)
+### Jenkins & CloudBees 
+[Jenkins & CloudBees 😀](jenkins.md)
+[Performance testing with Jenkins and JMeter or Gatling](performance-testing-with-jenkins-and-jmeter.md)
+### OpenShift Pipelines
+[OpenShift Pipelines with Jenkins, Tekton and more... 🌟](openshift-pipelines.md)
+### Jenkins Alternatives
+[Jenkins Alternatives for Continuous Integration](jenkins-alternatives.md)
+### Toolchain
+[Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo](container-managers.md)
+[Maven, Gradle & SDKMAN](maven-gradle.md)
+[SonarQube](sonarqube.md)
+[Nexus & JFrog Artifactory](nexus-jfrog.md)
+[Selenium, Cucumber, Appium & Zephyr Jira plugin](selenium-appium-zephyr.md)
+[Linux & SSH 🌟](linux.md)
+[MkDocs & GitHub Pages](mkdocs.md)
+### Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
+[Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more](web-servers.md)
+[Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more](java_app_servers.md) 
+[Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more](embedded-servlet-containers.md)
+[Caching Solutions](caching.md)
+## Monitoring and Performance. Prometheus, Grafana, APMs and more
+
+[Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟](monitoring.md)
+## Configuration Management
+[Ansible](ansible.md)
+[Chef](chef.md)
+[CI/CD Kubernetes Plugins](cicd-kubernetes-plugins.md)
+[Client Libraries for Kubernetes: Go client & Fabric8](kubernetes-client-libraries.md)
+[Helm Kubernetes Tool](helm.md)
+[Liquibase and Flyway](liquibase.md)
+[Pulumi](pulumi.md)
+[Terraform & Packer](terraform.md)
+[Template-Free Kubernetes Configuration Customization with Kustomize](kustomize.md)
+[Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files](yaml.md)
+## Databases on Kubernetes
+[Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟](databases.md)
+[NoSQL Databases](nosql.md)
+## Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
+[Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟](message-queue.md) 
+## Service Mesh
+[Service Mesh](servicemesh.md)
+[Istio](istio.md)
+## Security and DevSecOps. Container Security
+[Security and DevSecOps. Container Security](devsecops.md)
+[Security Policy as Code](securityascode.md)
+## Cloud Native Storage
+[Cloud Native Storage](storage.md)
+## APIs with SOAP, REST and gRPC
+[APIs with SOAP, REST and gRPC 🌟](api.md)
+[Swagger code generator for REST APIs](swagger-code-generator-for-rest-apis.md)
+[API Test Automation with Postman](postman.md)
+[API Marketplaces. API Management with API Gateways & Developer Portals 🌟](developerportals.md)
+## Development & Frameworks
+[Angular](angular.md)
+[Document Object Model (DOM)](dom.md)
+[JavaScript - node.js & npm](javascript.md)
+[Python - Django & Flask](python.md)
+[Xamarin](xamarin.md)
+### Java
+[Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟](java_frameworks.md)
+[Java Memory Management & Java Performance Optimization](java-and-java-performance-optimization.md)
+[Java Parameters Matrix Table 🌟](jvm-parameters-matrix-table.md)
+### Dev Environment 
+[Visual Studio Code 🌟](visual-studio.md)
+[WSL: Linux Dev Environment on Windows](linux-dev-env.md)
+[Scaffolding Tools](scaffolding.md)
+[Chrome & Firefox DevTools. HTTP Protocols & WebSockets](ChromeDevTools.md)
+## Public Cloud
+[Public Cloud Solutions](public-cloud-solutions.md)
+[Edge Computing](edge-computing.md)
+[Cloud Architecture Diagram Tools](cloud-arch-diagrams.md)
+[AWS](aws.md)
+[Google Cloud Platform](GoogleCloudPlatform.md)
+[Microsoft Azure](azure.md)
+[IBM & IBM Cloud](ibm_cloud.md)
+[Oracle Cloud](oraclecloud.md) 
+[Digital Ocean](digitalocean.md)
+[Cloudflare](cloudflare.md)
+[Splunk](Splunk.md)
