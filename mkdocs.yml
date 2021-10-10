@@ -4,7 +4,7 @@ site_author: melvinpetix
 repo_url: https://github.com/melvinpetix/lib
 docs_dir: docs/
 theme: 
-  name: windmill-dark
+    name: bootstrap4
   #static_templates:
    #   - index.html
  # include_search_page: true
@@ -121,24 +121,6 @@ docs:
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
   - More References:
-    - E-Learning: elearning.md
-    - Subreddits: newsfeeds.md
-    - Other Awesome Lists: other-awesome-lists.md
-
 copyright: 2020 melvinpetix™
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-    
-    - icon: fontawesome/brands/linkedin
-   
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/melvinpetix
-    - icon: fontawesome/brands/youtube
-      link: 
-    - icon: fontawesome/brands/speaker-deck
-     
-    - icon: fontawesome/brands/slideshare
-     
-    - icon: fontawesome/brands/slack
+
      
