@@ -1,18 +1,16 @@
 site_name: petix wiki-ed 
 site_url: https://petixnginx.tk/lib
 site_author: melvinpetix
+site_description: Bookmarks, cheat-sheet and whatsoever... collection
 repo_url: https://github.com/melvinpetix/lib
-docs_dir: docs/
 theme: 
     name: bootstrap4
   #static_templates:
    #   - index.html
 suppress_nextprev: false
-  #search_index_only: true
- # history_buttons: true
-#  article_nav_top: true
- # article_nav_bottom: true
-docs:
+plugins:
+    - search
+nav:
   - Home: index.md
   - Introduction:
     - From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
@@ -120,7 +118,6 @@ docs:
     - Oracle Cloud: oraclecloud.md
     - Digital Ocean: digitalocean.md
     - Cloudflare: cloudflare.md
-  - More References:
 copyright: 2020 melvinpetix™
 
      
