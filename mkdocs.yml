@@ -7,7 +7,7 @@ theme:
     name: bootstrap4
   #static_templates:
    #   - index.html
- # include_search_page: true
+suppress_nextprev: false
   #search_index_only: true
  # history_buttons: true
 #  article_nav_top: true
