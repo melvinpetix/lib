@@ -4,10 +4,9 @@ site_author: melvinpetix
 site_description: Bookmarks, cheat-sheet and whatsoever... collection
 repo_url: https://github.com/melvinpetix/lib
 theme: 
-    name: bootstrap4
+    name: bootstrap
   #static_templates:
    #   - index.html
-suppress_nextprev: false
 plugins:
     - search
 nav:
