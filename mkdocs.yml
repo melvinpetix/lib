@@ -4,7 +4,7 @@ site_author: melvinpetix
 site_description: Bookmarks, cheat-sheet and whatsoever... collection
 repo_url: https://github.com/melvinpetix/lib
 theme: 
-    name: bootstrap
+    name: cyborg
   #static_templates:
    #   - index.html
 plugins:
