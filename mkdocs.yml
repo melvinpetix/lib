@@ -5,8 +5,6 @@ site_description: Bookmarks, cheat-sheet and whatsoever... collection
 repo_url: https://github.com/melvinpetix/lib
 theme: 
     name: cyborg
-  #static_templates:
-   #   - index.html
 plugins:
     - search
 nav:
