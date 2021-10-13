@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bookmarks, cheat-sheet and whatsoever... collection">
+    <meta name="author" content="melvinpetix">
+    <link rel="canonical" href="https://petixnginx.tk/lib/">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>melvinpetix library</title>
+    <link href="./css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="./css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap-3.3.7.min.js"></script>
+    <script src="./js/highlight.pack.js"></script>
+    
+      <script src="./js/elasticlunr.min.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '.';
+      var is_top_frame = (window === window.parent);
+        
+        var pageToc = [
+          {title: "From Java EE To Cloud Native. Openshift VS Kubernetes", url: "#_top", children: [
+          ]},
+          {title: "Site Reliability Engineering (SRE)", url: "#site-reliability-engineering-sre", children: [
+          ]},
+          {title: "DevOps", url: "#devops", children: [
+          ]},
+          {title: "NoOps", url: "#noops", children: [
+          ]},
+          {title: "FinOps - Cloud Financial Management", url: "#finops-cloud-financial-management", children: [
+          ]},
+          {title: "TestOps and Continuous Testing", url: "#testops-and-continuous-testing", children: [
+          ]},
+          {title: "Project Management Methodology", url: "#project-management-methodology", children: [
+          ]},
+          {title: "Docker", url: "#docker", children: [
+          ]},
+          {title: "Kubernetes", url: "#kubernetes", children: [
+          ]},
+          {title: "OpenShift", url: "#openshift", children: [
+              {title: "OpenShift Streaming &amp; Training", url: "#openshift-streaming-training" },
+              {title: "OpenShift on Public Cloud", url: "#openshift-on-public-cloud" },
+              {title: "Customer Success Stories", url: "#customer-success-stories" },
+          ]},
+          {title: "Software Delivery Pipeline", url: "#software-delivery-pipeline", children: [
+              {title: "Jenkins &amp; CloudBees", url: "#jenkins-cloudbees" },
+              {title: "OpenShift Pipelines", url: "#openshift-pipelines" },
+              {title: "Jenkins Alternatives", url: "#jenkins-alternatives" },
+              {title: "Toolchain", url: "#toolchain" },
+              {title: "Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions", url: "#web-servers-reverse-proxies-java-runtimes-caching-solutions" },
+          ]},
+          {title: "Monitoring and Performance. Prometheus, Grafana, APMs and more", url: "#monitoring-and-performance-prometheus-grafana-apms-and-more", children: [
+          ]},
+          {title: "Configuration Management", url: "#configuration-management", children: [
+          ]},
+          {title: "Databases on Kubernetes", url: "#databases-on-kubernetes", children: [
+          ]},
+          {title: "Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)", url: "#cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline", children: [
+          ]},
+          {title: "Service Mesh", url: "#service-mesh", children: [
+          ]},
+          {title: "Security and DevSecOps. Container Security", url: "#security-and-devsecops-container-security", children: [
+          ]},
+          {title: "Cloud Native Storage", url: "#cloud-native-storage", children: [
+          ]},
+          {title: "APIs with SOAP, REST and gRPC", url: "#apis-with-soap-rest-and-grpc", children: [
+          ]},
+          {title: "Development &amp; Frameworks", url: "#development-frameworks", children: [
+              {title: "Java", url: "#java" },
+              {title: "Dev Environment", url: "#dev-environment" },
+          ]},
+          {title: "Public Cloud", url: "#public-cloud", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="./js/base.js"></script>
+      <script src="search/main.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+<nav class="navbar wm-page-top-frame">
+  <div class="container-fluid wm-top-container">
+    
+    <div class="wm-top-tool pull-right wm-vcenter">
+      <form class="dropdown wm-vcentered" id="wm-search-form" action="./search.html">
+        
+        <button id="wm-search-show" class="btn btn-sm btn-default" type="submit"
+          ><i class="fa fa-search" aria-hidden="true"></i></button>
+
+        <div class="input-group input-group-sm wm-top-search">
+          <input type="text" name="q" class="form-control" id="mkdocs-search-query" placeholder="Search" autocomplete="off">
+          <span class="input-group-btn" role="search">
+            
+            <button class="btn btn-default dropdown-toggle collapse" data-toggle="dropdown" type="button"><span class="caret"></span></button>
+            <ul id="mkdocs-search-results" class="dropdown-menu dropdown-menu-right"></ul>
+            <button id="wm-search-go" class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </span>
+        </div>
+      </form>
+    </div>
+
+    
+    <div class="wm-top-tool wm-vcenter pull-right wm-small-left">
+      <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
+    </div>
+
+    
+    
+
+    
+    <a href="" class="wm-top-brand wm-top-link wm-vcenter">
+      
+      <div class="wm-top-title">
+        melvinpetix library<br>
+        
+      </div>
+    </a>
+  </div>
+</nav>
+
+  <div id="main-content" class="wm-page-top-frame">
+    
+<nav class="wm-toc-pane">
+  
+    <ul class="wm-toctree wm-toc-repo">
+      <li class="wm-toc-li wm-toc-lev1">
+      <a class="wm-article-link wm-toc-text" href="https://github.com/melvinpetix/lib/">
+        <i class="fa fa-github"></i>
+
+        GitHub
+      </a>
+      </li>
+    </ul>
+  <ul class="wm-toctree">
+        <li class="wm-toc-li wm-toc-lev1 "><a href="" class="wm-article-link wm-toc-text">Home</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Introduction</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="introduction.md" class="wm-article-link wm-toc-text">From Java EE To Cloud Native. Openshift VS Kubernetes</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="faq/" class="wm-article-link wm-toc-text">Microservices FAQ & Kubernetes Native</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="sre/" class="wm-article-link wm-toc-text">Site Reliability Engineering (SRE)</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 "><a href="serverless/" class="wm-article-link wm-toc-text">Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">DevOps</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="devops/" class="wm-article-link wm-toc-text">DevOps</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="cheatsheets/" class="wm-article-link wm-toc-text">Cheat Sheets</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="gitops/" class="wm-article-link wm-toc-text">GitOps</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="mlops.md" class="wm-article-link wm-toc-text">MLOps</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="demos/" class="wm-article-link wm-toc-text">Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">NoOps</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="noops/" class="wm-article-link wm-toc-text">NoOps</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="serverless/" class="wm-article-link wm-toc-text">Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="finops/" class="wm-article-link wm-toc-text">FinOps - Cloud Financial Management</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 "><a href="testops/" class="wm-article-link wm-toc-text">TestOps and Continuous Testing</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Project Management Methodology</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="project-management-methodology/" class="wm-article-link wm-toc-text">Project Management Methodology</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="project-management-tools.md" class="wm-article-link wm-toc-text">Project Management Tools</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="appointment-scheduling/" class="wm-article-link wm-toc-text">Appointment Scheduling</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="workfromhome/" class="wm-article-link wm-toc-text">Work From Home</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="docker/" class="wm-article-link wm-toc-text">Docker</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Kubernetes</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="kubernetes/" class="wm-article-link wm-toc-text">Kubernetes</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="rancher.md" class="wm-article-link wm-toc-text">Rancher - Enterprise management for Kubernetes</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="matrix-table/" class="wm-article-link wm-toc-text">Kubernetes Matrix Table</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="kubernetes-alternatives/" class="wm-article-link wm-toc-text">Kubernetes alternatives</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">OpenShift</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="openshift/" class="wm-article-link wm-toc-text">OpenShift docs</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="ocp3.md" class="wm-article-link wm-toc-text">OCP 3</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="ocp4.md" class="wm-article-link wm-toc-text">OCP 4</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="customer/" class="wm-article-link wm-toc-text">Customer Success Stories</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Software Delivery Pipeline</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="cicd/" class="wm-article-link wm-toc-text">CI/CD - Continuous Integration & Continuous Delivery</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="git/" class="wm-article-link wm-toc-text">Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="jenkins/" class="wm-article-link wm-toc-text">Jenkins & Cloudbees</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="openshift-pipelines/" class="wm-article-link wm-toc-text">OpenShift Pipelines with Jenkins, Tekton and more...</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="performance-testing-with-jenkins-and-jmeter/" class="wm-article-link wm-toc-text">Performance testing with Jenkins and JMeter or Gatling</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="jenkins-alternatives/" class="wm-article-link wm-toc-text">Jenkins Alternatives for Continuous Integration</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 wm-toc-opener"><span class="wm-toc-text">Toolchain</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev3 "><a href="container-managers/" class="wm-article-link wm-toc-text">Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="maven-gradle/" class="wm-article-link wm-toc-text">Maven, Gradle & SDKMAN</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="sonarqube/" class="wm-article-link wm-toc-text">SonarQube</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="nexus-jfrog/" class="wm-article-link wm-toc-text">Nexus & JFrog Artifactory</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="selenium-appium-zephyr/" class="wm-article-link wm-toc-text">Selenium, Cucumber, Appium & Zephyr Jira plugin</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="linux/" class="wm-article-link wm-toc-text">Linux & SSH</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="mkdocs.md" class="wm-article-link wm-toc-text">MkDocs & GitHub Pages</a>
+</li>
+  </ul>
+</li>
+
+      <li class="wm-toc-li wm-toc-lev2 wm-toc-opener"><span class="wm-toc-text">Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev3 "><a href="web-servers/" class="wm-article-link wm-toc-text">Web Servers & Reverse Proxies - Apache, Nginx, HAProxy, Traefik and more</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="java_app_servers.md" class="wm-article-link wm-toc-text">Java EE/Jakarta EE and MicroProfile Runtimes - Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="embedded-servlet-containers/" class="wm-article-link wm-toc-text">Embedded Servlet Containers in SpringBoot</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="caching/" class="wm-article-link wm-toc-text">Caching Solutions</a>
+</li>
+  </ul>
+</li>
+
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="monitoring/" class="wm-article-link wm-toc-text">Monitoring and Performance. Prometheus, Grafana, APMs and more</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Configuration Management</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="ansible/" class="wm-article-link wm-toc-text">Ansible</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="chef.md" class="wm-article-link wm-toc-text">Chef</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="cicd-kubernetes-plugins.md" class="wm-article-link wm-toc-text">CI/CD Kubernetes Plugins</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="kubernetes-client-libraries.md" class="wm-article-link wm-toc-text">Client Libraries for Kubernetes - Go client & Fabric8</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="helm.md" class="wm-article-link wm-toc-text">Helm Kubernetes Tool</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="liquibase/" class="wm-article-link wm-toc-text">Liquibase & Flyway</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pulumi.md" class="wm-article-link wm-toc-text">Pulumi</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="terraform/" class="wm-article-link wm-toc-text">Terraform & Packer</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="kustomize.md" class="wm-article-link wm-toc-text">Template-Free Kubernetes Configuration Customization with Kustomize</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="yaml.md" class="wm-article-link wm-toc-text">Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Databases on Kubernetes</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="databases/" class="wm-article-link wm-toc-text">Relational Databases and Database DevOps. CrunchyData Postgres Operator</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="nosql/" class="wm-article-link wm-toc-text">NoSQL Databases</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="message-queue/" class="wm-article-link wm-toc-text">Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Service Mesh</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="servicemesh/" class="wm-article-link wm-toc-text">Service Mesh</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="istio/" class="wm-article-link wm-toc-text">Istio</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Security and DevSecOps</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="devsecops/" class="wm-article-link wm-toc-text">DevSecOps. Container Security</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="securityascode/" class="wm-article-link wm-toc-text">Security Policy as Code</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="storage/" class="wm-article-link wm-toc-text">Cloud Native Storage</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">APIs</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="api/" class="wm-article-link wm-toc-text">APIs with SOAP, REST and gRPC</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="swagger-code-generator-for-rest-apis/" class="wm-article-link wm-toc-text">Swagger code generator for REST APIs</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="postman/" class="wm-article-link wm-toc-text">API Test Automation with Postman</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="developerportals/" class="wm-article-link wm-toc-text">API Marketplaces. API Management with API Gateways & Developer Portals</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Development & Frameworks</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="angular/" class="wm-article-link wm-toc-text">Angular</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="dom/" class="wm-article-link wm-toc-text">Document Object Model (DOM)</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="javascript/" class="wm-article-link wm-toc-text">JavaScript - node.js & npm</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="python/" class="wm-article-link wm-toc-text">Python - Django & Flask</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="xamarin/" class="wm-article-link wm-toc-text">Xamarin</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 wm-toc-opener"><span class="wm-toc-text">Java</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev3 "><a href="java_frameworks.md" class="wm-article-link wm-toc-text">Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="java-and-java-performance-optimization/" class="wm-article-link wm-toc-text">Java Memory Management & Java Performance Optimization</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="jvm-parameters-matrix-table/" class="wm-article-link wm-toc-text">Java Parameters Matrix Table</a>
+</li>
+  </ul>
+</li>
+
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Dev Environment</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="visual-studio/" class="wm-article-link wm-toc-text">Visual Studio Code</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="linux-dev-env/" class="wm-article-link wm-toc-text">WSL - Linux Dev Environment on Windows</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="scaffolding/" class="wm-article-link wm-toc-text">Scaffolding Tools</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="ChromeDevTools/" class="wm-article-link wm-toc-text">Chrome & Firefox DevTools. HTTP Protocols & WebSockets</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Public Cloud</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="public-cloud-solutions/" class="wm-article-link wm-toc-text">Public Cloud Solutions</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="edge-computing/" class="wm-article-link wm-toc-text">Edge Computing</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="cloud-arch-diagrams/" class="wm-article-link wm-toc-text">Cloud Architecture Diagram Tools</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="aws/" class="wm-article-link wm-toc-text">AWS</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="GoogleCloudPlatform/" class="wm-article-link wm-toc-text">Google Cloud Platform</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="azure/" class="wm-article-link wm-toc-text">Microsoft Azure</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="ibm_cloud/" class="wm-article-link wm-toc-text">IBM & IBM Cloud</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="oraclecloud/" class="wm-article-link wm-toc-text">Oracle Cloud</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="digitalocean/" class="wm-article-link wm-toc-text">Digital Ocean</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="cloudflare/" class="wm-article-link wm-toc-text">Cloudflare</a>
+</li>
+  </ul>
+</li>
+
+  </ul>
+</nav>
+
+    <div class="wm-content-pane">
+      <iframe class="wm-article" name="article"></iframe>
+    </div>
+  </div>
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="faq/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="faq/" class="btn btn-xs btn-link">
+        Microservices FAQ & Kubernetes Native
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p>2018</p>
+<h3 id="from-java-ee-to-cloud-native-openshift-vs-kubernetes">From Java EE To Cloud Native. Openshift VS Kubernetes</h3>
+<p><a href="introduction.md">From Java EE To Cloud Native. Openshift VS Kubernetes</a>
+<a href="faq/">Microservices FAQ &amp; Kubernetes Native</a></p>
+<h2 id="site-reliability-engineering-sre">Site Reliability Engineering (SRE)</h2>
+<p><a href="sre/">Site Reliability Engineering (SRE)</a></p>
+<h2 id="devops">DevOps</h2>
+<p><a href="devops/">DevOps</a>
+<a href="cheatsheets/">Cheat Sheets 🌟</a>
+<a href="gitops/">GitOps 🌟</a>
+<a href="mlops.md">MLOps</a>
+<a href="demos/">Demos &amp; Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟</a></p>
+<h2 id="noops">NoOps</h2>
+<p><a href="noops/">NoOps</a>
+<a href="serverless/">Serverless Architectures &amp; Frameworks. OpenFaaS, Knative &amp; Kubeless</a></p>
+<h2 id="finops-cloud-financial-management">FinOps - Cloud Financial Management</h2>
+<p><a href="finops/">FinOps - Cloud Financial Management</a></p>
+<h2 id="testops-and-continuous-testing">TestOps and Continuous Testing</h2>
+<p><a href="testops/">TestOps and Continuous Testing</a></p>
+<h2 id="project-management-methodology">Project Management Methodology</h2>
+<p><a href="project-management-methodology/">Project Management Methodology</a>
+<a href="project-management-tools.md">Project Management Tools</a>
+<a href="appointment-scheduling/">Appointment Scheduling</a>
+<a href="workfromhome/">Work From Home</a></p>
+<h2 id="docker">Docker</h2>
+<p><a href="docker/">Docker</a></p>
+<h2 id="kubernetes">Kubernetes</h2>
+<p><a href="kubernetes/">Kubernetes 🌟</a>
+<a href="rancher.md">Rancher - Enterprise management for Kubernetes 🌟</a>
+<a href="matrix-table/">Kubernetes Matrix Table 🌟</a>
+<a href="kubernetes-alternatives/">Kubernetes Alternatives</a></p>
+<h2 id="openshift">OpenShift</h2>
+<p><a href="openshift/">OpenShift 🌟</a>
+<a href="ocp3.md">OCP 3</a>
+<a href="ocp4.md">OCP 4 🌟</a></p>
+<h3 id="openshift-streaming-training">OpenShift Streaming &amp; Training</h3>
+<p><a href="https://openshift.tv">OpenShift.tv</a> 
+<a href="https://www.twitch.tv/redhatopenshift">twitch.tv/redhatopenshift</a>
+<a href="https://www.udemy.com/course/openshift-4-desde-cero">Udemy: OpenShift 4 desde cero 🌟</a></p>
+<h3 id="openshift-on-public-cloud">OpenShift on Public Cloud</h3>
+<p><a href="https://www.openshift.com/products/dedicated/">OpenShift Dedicated</a>
+<a href="https://www.openshift.com/products/amazon-openshift/faq">Amazon Red Hat OpenShift</a>
+<a href="https://cloud.google.com/solutions/partners/openshift-on-gcp">OpenShift on Google Cloud</a>
+<a href="https://www.openshift.com/products/azure-openshift">Microsoft Azure Red Hat OpenShift</a>
+<a href="https://www.ibm.com/cloud/openshift">Red Hat OpenShift on IBM Cloud</a>
+<a href="https://www.openshift.com/products/online/">OpenShift Online</a>
+<a href="https://openshift.io/">OpenShift.io</a></p>
+<h3 id="customer-success-stories">Customer Success Stories</h3>
+<p><a href="customer/">Customer Success Stories 🌟</a></p>
+<h2 id="software-delivery-pipeline">Software Delivery Pipeline</h2>
+<p><a href="cicd/">CI/CD - Continuous Integration &amp; Continuous Delivery</a>
+<a href="git/">Git &amp; Git Patterns. Trunk Devel, Git Flow &amp; Feature Flags. Merge BOTs 🌟</a></p>
+<h3 id="jenkins-cloudbees">Jenkins &amp; CloudBees</h3>
+<p><a href="jenkins/">Jenkins &amp; CloudBees 😀</a>
+<a href="performance-testing-with-jenkins-and-jmeter/">Performance testing with Jenkins and JMeter or Gatling</a></p>
+<h3 id="openshift-pipelines">OpenShift Pipelines</h3>
+<p><a href="openshift-pipelines/">OpenShift Pipelines with Jenkins, Tekton and more... 🌟</a></p>
+<h3 id="jenkins-alternatives">Jenkins Alternatives</h3>
+<p><a href="jenkins-alternatives/">Jenkins Alternatives for Continuous Integration</a></p>
+<h3 id="toolchain">Toolchain</h3>
+<p><a href="container-managers/">Container Runtimes/Managers &amp; Base Images. Podman, Buildah &amp; Skopeo</a>
+<a href="maven-gradle/">Maven, Gradle &amp; SDKMAN</a>
+<a href="sonarqube/">SonarQube</a>
+<a href="nexus-jfrog/">Nexus &amp; JFrog Artifactory</a>
+<a href="selenium-appium-zephyr/">Selenium, Cucumber, Appium &amp; Zephyr Jira plugin</a>
+<a href="linux/">Linux &amp; SSH 🌟</a>
+<a href="mkdocs.md">MkDocs &amp; GitHub Pages</a></p>
+<h3 id="web-servers-reverse-proxies-java-runtimes-caching-solutions">Web Servers, Reverse Proxies, Java Runtimes &amp; Caching Solutions</h3>
+<p><a href="web-servers/">Web Servers &amp; Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more</a>
+<a href="java_app_servers.md">Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more</a> 
+<a href="embedded-servlet-containers/">Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more</a>
+<a href="caching/">Caching Solutions</a></p>
+<h2 id="monitoring-and-performance-prometheus-grafana-apms-and-more">Monitoring and Performance. Prometheus, Grafana, APMs and more</h2>
+<p><a href="monitoring/">Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟</a></p>
+<h2 id="configuration-management">Configuration Management</h2>
+<p><a href="ansible/">Ansible</a>
+<a href="chef.md">Chef</a>
+<a href="cicd-kubernetes-plugins.md">CI/CD Kubernetes Plugins</a>
+<a href="kubernetes-client-libraries.md">Client Libraries for Kubernetes: Go client &amp; Fabric8</a>
+<a href="helm.md">Helm Kubernetes Tool</a>
+<a href="liquibase/">Liquibase and Flyway</a>
+<a href="pulumi.md">Pulumi</a>
+<a href="terraform/">Terraform &amp; Packer</a>
+<a href="kustomize.md">Template-Free Kubernetes Configuration Customization with Kustomize</a>
+<a href="yaml.md">Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files</a></p>
+<h2 id="databases-on-kubernetes">Databases on Kubernetes</h2>
+<p><a href="databases/">Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟</a>
+<a href="nosql/">NoSQL Databases</a></p>
+<h2 id="cloud-based-integration-messaging-data-processing-streaming-aka-data-pipeline">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline)</h2>
+<p><a href="message-queue/">Cloud Based Integration &amp; Messaging. Data Processing &amp; Streaming (aka Data Pipeline) 🌟</a> </p>
+<h2 id="service-mesh">Service Mesh</h2>
+<p><a href="servicemesh/">Service Mesh</a>
+<a href="istio/">Istio</a></p>
+<h2 id="security-and-devsecops-container-security">Security and DevSecOps. Container Security</h2>
+<p><a href="devsecops/">Security and DevSecOps. Container Security</a>
+<a href="securityascode/">Security Policy as Code</a></p>
+<h2 id="cloud-native-storage">Cloud Native Storage</h2>
+<p><a href="storage/">Cloud Native Storage</a></p>
+<h2 id="apis-with-soap-rest-and-grpc">APIs with SOAP, REST and gRPC</h2>
+<p><a href="api/">APIs with SOAP, REST and gRPC 🌟</a>
+<a href="swagger-code-generator-for-rest-apis/">Swagger code generator for REST APIs</a>
+<a href="postman/">API Test Automation with Postman</a>
+<a href="developerportals/">API Marketplaces. API Management with API Gateways &amp; Developer Portals 🌟</a></p>
+<h2 id="development-frameworks">Development &amp; Frameworks</h2>
+<p><a href="angular/">Angular</a>
+<a href="dom/">Document Object Model (DOM)</a>
+<a href="javascript/">JavaScript - node.js &amp; npm</a>
+<a href="python/">Python - Django &amp; Flask</a>
+<a href="xamarin/">Xamarin</a></p>
+<h3 id="java">Java</h3>
+<p><a href="java_frameworks.md">Java &amp; Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟</a>
+<a href="java-and-java-performance-optimization/">Java Memory Management &amp; Java Performance Optimization</a>
+<a href="jvm-parameters-matrix-table/">Java Parameters Matrix Table 🌟</a></p>
+<h3 id="dev-environment">Dev Environment</h3>
+<p><a href="visual-studio/">Visual Studio Code 🌟</a>
+<a href="linux-dev-env/">WSL: Linux Dev Environment on Windows</a>
+<a href="scaffolding/">Scaffolding Tools</a>
+<a href="ChromeDevTools/">Chrome &amp; Firefox DevTools. HTTP Protocols &amp; WebSockets</a></p>
+<h2 id="public-cloud">Public Cloud</h2>
+<p><a href="public-cloud-solutions/">Public Cloud Solutions</a>
+<a href="edge-computing/">Edge Computing</a>
+<a href="cloud-arch-diagrams/">Cloud Architecture Diagram Tools</a>
+<a href="aws/">AWS</a>
+<a href="GoogleCloudPlatform/">Google Cloud Platform</a>
+<a href="azure/">Microsoft Azure</a>
+<a href="ibm_cloud/">IBM &amp; IBM Cloud</a>
+<a href="oraclecloud/">Oracle Cloud</a> 
+<a href="digitalocean/">Digital Ocean</a>
+<a href="cloudflare/">Cloudflare</a>
+<a href="Splunk/">Splunk</a></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="faq/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="faq/" class="btn btn-xs btn-link">
+        Microservices FAQ & Kubernetes Native
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+      <p>
+        <a href="https://github.com/melvinpetix/lib/edit/master/docs/index.md"><i class="fa fa-github"></i>
+Edit on GitHub</a>
+      </p><p>2020 melvinpetix™</p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/melvinpetix/lib/">Windmill Dark</a> theme by melvinpetix (noraj).</p>
+</footer>
+
+</body>
+</html>
+<!--
+MkDocs version : 1.2.3
+Build Date UTC : 2021-10-13 16:09:44.892344+00:00
+-->
