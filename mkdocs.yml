@@ -6,7 +6,7 @@ repo_url: https://github.com/melvinpetix/lib
 theme: 
     name: windmill-dark
 nav:
-  - Home: cheatsheets.md
+  - Home: index.md
     - DevOps: devops.md
     - GitOps: gitops.md
     - MLOps: mlops.md
