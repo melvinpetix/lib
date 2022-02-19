@@ -6,10 +6,8 @@ repo_url: https://github.com/melvinpetix/lib
 theme: 
     name: windmill-dark
 nav:
-  - Home: 
-  - DevOps:
+  - Home: cheatsheets.md
     - DevOps: devops.md
-    - Cheat Sheets: cheatsheets.md
     - GitOps: gitops.md
     - MLOps: mlops.md
     - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
