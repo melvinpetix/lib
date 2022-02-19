@@ -6,18 +6,16 @@ repo_url: https://github.com/melvinpetix/lib
 theme: 
     name: windmill-dark
 nav:
-  - Home: index.md
-  - Introduction:
-    - From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md
-    - Microservices FAQ & Kubernetes Native: faq.md
-  - Site Reliability Engineering (SRE): sre.md
-  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
+  - Home: 
   - DevOps:
     - DevOps: devops.md
     - Cheat Sheets: cheatsheets.md
     - GitOps: gitops.md
     - MLOps: mlops.md
     - Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more: demos.md
+    - Microservices FAQ & Kubernetes Native: faq.md
+  - Site Reliability Engineering (SRE): sre.md
+  - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
   - NoOps: 
     - NoOps: noops.md
     - Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless: serverless.md
