@@ -1,130 +1,59 @@
-    From Java EE To Cloud Native. Openshift VS Kubernetes
-    From Java EE To Cloud Native. Openshift VS Kubernetes (introduction.md)
-    Microservices FAQ & Kubernetes Native (faq.md)
-    Site Reliability Engineering (SRE)
-    Site Reliability Engineering (SRE) (sre.md)
-    DevOps
-    DevOps (devops.md)
-    Cheat Sheets 🌟 (cheatsheets.md)
-    GitOps 🌟 (gitops.md)
-    MLOps (mlops.md)
-    Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more 🌟 (demos.md)
-    NoOps
-    NoOps (noops.md)
-    Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless (serverless.md)
-    FinOps - Cloud Financial Management
-    FinOps - Cloud Financial Management (finops.md)
-    TestOps and Continuous Testing
-    TestOps and Continuous Testing (testops.md)
-    Project Management Methodology
-    Project Management Methodology (project-management-methodology.md)
-    Project Management Tools (project-management-tools.md)
-    Appointment Scheduling (appointment-scheduling.md)
-    Work From Home (workfromhome.md)
-    Docker
-    Docker (docker.md)
-    Kubernetes
-    Kubernetes 🌟 (kubernetes.md)
-    Rancher - Enterprise management for Kubernetes 🌟 (rancher.md)
-    Kubernetes Matrix Table 🌟 (matrix-table.md)
-    Kubernetes Alternatives (kubernetes-alternatives.md)
-    OpenShift
-    OpenShift 🌟 (openshift.md)
-    OCP 3 (ocp3.md)
-    OCP 4 🌟 (ocp4.md)
-    OpenShift Streaming & Training
-    OpenShift.tv (https://openshift.tv) 
-    twitch.tv/redhatopenshift (https://www.twitch.tv/redhatopenshift)
-    Udemy: OpenShift 4 desde cero 🌟 (https://www.udemy.com/course/openshift-4-desde-cero)
-    OpenShift on Public Cloud
-    OpenShift Dedicated (https://www.openshift.com/products/dedicated/)
-    Amazon Red Hat OpenShift (https://www.openshift.com/products/amazon-openshift/faq)
-    OpenShift on Google Cloud (https://cloud.google.com/solutions/partners/openshift-on-gcp)
-    Microsoft Azure Red Hat OpenShift (https://www.openshift.com/products/azure-openshift)
-    Red Hat OpenShift on IBM Cloud (https://www.ibm.com/cloud/openshift)
-    OpenShift Online (https://www.openshift.com/products/online/)
-    OpenShift.io (https://openshift.io/)
-    Customer Success Stories
-    Customer Success Stories 🌟 (customer.md)
-    Software Delivery Pipeline
-    CI/CD - Continuous Integration & Continuous Delivery (cicd.md)
-    Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs 🌟 (git.md)
-    Jenkins & CloudBees 
-    Jenkins & CloudBees 😀 (jenkins.md)
-    Performance testing with Jenkins and JMeter or Gatling (performance-testing-with-jenkins-and-jmeter.md)
-    OpenShift Pipelines
-    OpenShift Pipelines with Jenkins, Tekton and more... 🌟 (openshift-pipelines.md)
-    Jenkins Alternatives
-    Jenkins Alternatives for Continuous Integration (jenkins-alternatives.md)
-    Toolchain
-    Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo (container-managers.md)
-    Maven, Gradle & SDKMAN (maven-gradle.md)
-    SonarQube (sonarqube.md)
-    Nexus & JFrog Artifactory (nexus-jfrog.md)
-    Selenium, Cucumber, Appium & Zephyr Jira plugin (selenium-appium-zephyr.md)
-    Linux & SSH 🌟 (linux.md)
-    MkDocs & GitHub Pages (mkdocs.md)
-    Web Servers, Reverse Proxies, Java Runtimes & Caching Solutions
-    Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more (web-servers.md)
-    Java EE/Jakarta EE and MicroProfile Runtimes: Payara, JBoss EAP, WebSphere Liberty, WildFly and more (java_app_servers.md) 
-    Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more (embedded-servlet-containers.md)
-    Caching Solutions (caching.md)
-    Monitoring and Performance. Prometheus, Grafana, APMs and more
+# DevOps 
+- [Introduction to Digital Business Transformation](#introduction-to-digital-business-transformation)
+- [DevOps](#devops)
+- [Blogs](#blogs)
+- [Xebia Labs and DevOps](#xebia-labs-and-devops)
+- [Netflix and DevOps](#netflix-and-devops)
+- [Public Cloud DevOps](#public-cloud-devops)
+    - [AWS DevOps](#aws-devops)
+    - [Azure DevOps](#azure-devops)
+    - [Google Cloud Platform](#google-cloud-platform)
 
-    Monitoring and Performance. Prometheus, Grafana, APMs and more 🌟 (monitoring.md)
-    Configuration Management
-    Ansible (ansible.md)
-    Chef (chef.md)
-    CI/CD Kubernetes Plugins (cicd-kubernetes-plugins.md)
-    Client Libraries for Kubernetes: Go client & Fabric8 (kubernetes-client-libraries.md)
-    Helm Kubernetes Tool (helm.md)
-    Liquibase and Flyway (liquibase.md)
-    Pulumi (pulumi.md)
-    Terraform & Packer (terraform.md)
-    Template-Free Kubernetes Configuration Customization with Kustomize (kustomize.md)
-    Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files (yaml.md)
-    Databases on Kubernetes
-    Relational Databases and Database DevOps. CrunchyData Postgres Operator 🌟 (databases.md)
-    NoSQL Databases (nosql.md)
-    Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
-    Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline) 🌟 (message-queue.md) 
-    Service Mesh
-    Service Mesh (servicemesh.md)
-    Istio (istio.md)
-    Security and DevSecOps. Container Security
-    Security and DevSecOps. Container Security (devsecops.md)
-    Security Policy as Code (securityascode.md)
-    Cloud Native Storage
-    Cloud Native Storage (storage.md)
-    APIs with SOAP, REST and gRPC
-    APIs with SOAP, REST and gRPC 🌟 (api.md)
-    Swagger code generator for REST APIs (swagger-code-generator-for-rest-apis.md)
-    API Test Automation with Postman (postman.md)
-    API Marketplaces. API Management with API Gateways & Developer Portals 🌟 (developerportals.md)
-    Development & Frameworks
-    Angular (angular.md)
-    Document Object Model (DOM) (dom.md)
-    JavaScript - node.js & npm (javascript.md)
-    Python - Django & Flask (python.md)
-    Xamarin (xamarin.md)
-    Java
-    Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more 🌟 (java_frameworks.md)
-    Java Memory Management & Java Performance Optimization (java-and-java-performance-optimization.md)
-    Java Parameters Matrix Table 🌟 (jvm-parameters-matrix-table.md)
-    Dev Environment 
-    Visual Studio Code 🌟 (visual-studio.md)
-    WSL: Linux Dev Environment on Windows (linux-dev-env.md)
-    Scaffolding Tools (scaffolding.md)
-    Chrome & Firefox DevTools. HTTP Protocols & WebSockets (ChromeDevTools.md)
-    Public Cloud
-    Public Cloud Solutions (public-cloud-solutions.md)
-    Edge Computing (edge-computing.md)
-    Cloud Architecture Diagram Tools (cloud-arch-diagrams.md)
-    AWS (aws.md)
-    Google Cloud Platform (GoogleCloudPlatform.md)
-    Microsoft Azure (azure.md)
-    IBM & IBM Cloud (ibm_cloud.md)
-    Oracle Cloud (oraclecloud.md) 
-    Digital Ocean (digitalocean.md)
-    Cloudflare (cloudflare.md)
-    Splunk (Splunk.md)
+## Introduction to Digital Business Transformation
+* [What Is AIOps, BizDevOps, CloudOps, DevOps, ITOps, NoOps? A Gentle Introduction to Digital Business Transformation 🌟](https://stxnext.com/blog/2019/04/25/aiops-bizdevops-cloudops-devops-itops-noops-introduction-digital-business-transformation/)
+
+## DevOps
+* [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
+* [DevOps Toolbox: Jenkins, Ansible, Chef, Puppet, Vagrant, & SaltStack](https://hostadvice.com/blog/devops-toolbox-jenkins-ansible-chef-puppet-vagrant-saltstack/)
+* [thenewstack.io: Kubernetes is the Accepted Platform for Cloud Native Computing](https://thenewstack.io/category/kubernetes/)
+* [opensource.com: The case for making the transition from sysadmin to DevOps engineer 🌟](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
+* [opensource.com: The case for making the transition from sysadmin to DevOps engineer](https://opensource.com/article/19/7/devops-vs-sysadmin) There's a learning curve, but there's no time like the present to get started.
+* [opensource.com: How to transition into a career as a DevOps engineer](https://opensource.com/article/19/7/how-transition-career-devops-engineer) Whether you're a recent college graduate or a seasoned IT pro looking to advance your career, these tips can help you get hired as a DevOps engineer.
+* [opensource.com: A beginner's guide to everything DevOps 🌟](https://opensource.com/article/20/2/devops-beginners) Take a fresh look at why DevOps is important, what it means for IT professionals, and its methods, frameworks, and tools.
+* [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps)
+* [Corporate culture complicates Kubernetes and container collaboration 🌟](https://www.zdnet.com/article/corporate-culture-complicates-kubernetes-and-container-collaboration/) 'As the DevOps crew likes to say: containers won't fix your broken culture'
+* [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+* [devopscube.com: Become A DevOps Engineer in 2020: A Comprehensive Guide 🌟](https://devopscube.com/become-devops-engineer/)
+* [How to be a great DevOps Engineer 🌟](https://blog.shippable.com/how-to-be-a-great-devops-engineer)
+* [smartsheet.com: The Way of DevOps: A Primer on DevOps Principles and Practices](https://www.smartsheet.com/devops)
+* [dzone: Are You Stuck in the New DevOps Matrix From Hell? 🌟](https://dzone.com/articles/are-you-stuck-in-the-new-devops-matrix-from-hell) See how Docker solved the matrix-from-hell problem, and how DevOps techniques can help avoid the config sprawl that comes with microservices.
+* [kenmugrage.com 🌟](https://kenmugrage.com/2017/05/05/my-new-definition-of-devops/#more-4) DevOps: A culture where people, regardless of title or background, work together to imagine, develop, deploy and operate a system. 
+
+## Blogs
+- [devops.com](https://devops.com/)
+- [devopscube.com](https://devopscube.com/)
+- [devopszone.info](https://www.devopszone.info/)
+
+## Xebia Labs and DevOps
+- [DevOps Glosary of Terms 🌟](https://xebialabs.com/glossary/)
+- [The Ultimate DevOps Tool Chest 🌟](https://xebialabs.com/the-ultimate-devops-tool-chest/)
+- [Periodic Table of DevOps 🌟](https://xebialabs.com/periodic-table-of-devops-tools/)
+
+## Netflix and DevOps
+* [Full Cycle Developers at Netflix — Operate What You Build](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) 
+* [Applying Netflix DevOps Patterns to Windows](https://netflixtechblog.com/applying-netflix-devops-patterns-to-windows-2a57f2dbbf79)
+
+## Public Cloud DevOps
+### AWS DevOps
+* [AWS DevOps 🌟](https://aws.amazon.com/devops/)
+
+### Azure DevOps
+* [Azure DevOps 🌟](https://azure.microsoft.com/services/devops/)
+
+###  Google Cloud Platform
+* [cloud.google.com: DevOps](https://cloud.google.com/devops)
+* [Cloud Developer Tools](https://cloud.google.com/products/tools)
+* [Google Cloud Code](https://cloud.google.com/code)
+    * [github: Google Cloud Code samples](https://github.com/GoogleCloudPlatform/cloud-code-samples)
+* [Google Cloud Build](https://cloud.google.com/cloud-build)
+* [medium.com/google-cloud/tagged/devops](https://medium.com/google-cloud/tagged/devops)
